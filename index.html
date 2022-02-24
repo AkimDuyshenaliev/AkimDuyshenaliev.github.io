@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Задания - Дуйшеналиев Аким</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container m-4 pb-4 px-4 text-center border">
+      <div class="mt-4">
+        <h1>Карточка студента</h1>
+        <h4 id="author" title="GossJS">Дуйшеналиев Аким</h4>
+        <p class="h3">Выполненные задания:</p>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Введение в XML
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="d-grid gap-2 d-md-block">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Задание 1</h5>
+                        <p class="card-text">
+                          XSLT-стили, которые преобразуют это поддерево в
+                          поддерево элемента math с его последующей обработкой
+                          по технологии MathJax
+                        </p>
+                        <button
+                          class="btn btn-primary"
+                          onclick="location.href='lab1/task1.xml';"
+                          type="button"
+                        >
+                          Решение
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Задание 2</h5>
+                        <p class="card-text">
+                          XSLT-преобразования чтобы результат выглядет как на
+                          иллюстрации ниже.
+                        </p>
+                        <a
+                          href="http://kodaktor.ru/svg.pdf#page=2"
+                          class="btn btn-primary"
+                          >Пример</a
+                        >
+                        <button
+                          class="btn btn-primary"
+                          onclick="location.href='lab1/task2.xml';"
+                          type="button"
+                        >
+                          Решение
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
